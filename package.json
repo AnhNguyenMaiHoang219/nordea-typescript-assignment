@@ -1,0 +1,19 @@
+{
+  "name": "nordea-assignment1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "clean": "npx rimraf node_modules && npx rimraf package-lock.json && npm cache clear -f && npm install",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
