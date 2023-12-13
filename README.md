@@ -1,4 +1,4 @@
-# nordea-assignment-1
+# nordea-typescript-assignment
 
 A simple Web application for transforming raw music band data
 
